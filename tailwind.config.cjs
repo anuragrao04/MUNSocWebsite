@@ -5,9 +5,9 @@ module.exports = {
 	theme: {
 		extend: {},
 		colors: {
-			'munsoc-gold': '#C0A960',
-			'navbar-slate': '#151B24',
-			'body-slate': '#232C3A',
+			'paynes-gray': '#586F7C',
+			'light-blue': '#B8DBD9',
+			'dark-green': '#04724D',
 			white: '#ffffff'
 		}
 	},
