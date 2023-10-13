@@ -55,7 +55,11 @@
             {/if}
 
           </div>
-
+          <div class="prizes pl-2 pr-2 md:pr-5 md:pl-5">
+            {
+              (award.meta.date)
+            }
+          </div>
           <div class = "prizes pl-2 pr-2 md:pr-5 md:pl-5">
             <div class = "h-auto items-center">
             {#each Object.entries(award.meta.awardeeAward) as [person, award]}
