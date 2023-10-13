@@ -60,8 +60,8 @@
             <div class = "h-auto items-center">
             {#each Object.entries(award.meta.awardeeAward) as [person, award]}
               <div class = "eachPrizes">
-                <h3 class = "inline-block m-0 text-right text-munsoc-gold pt-2 md:text-xl text-sm">{person}</h3>
-                <h3 class = "text-center flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal">{award}</h3>
+                <h3 class = "inline-block m-0 text-center text-munsoc-gold pt-2 md:text-xl text-sm">{person}</h3>
+                <h3 class = " flex items-center m-0 pt-2 pb-2 md:text-xl text-sm font-normal text-center">{award}</h3>
                 <hr class = "col-span-2 m-0">
               </div>
             {/each}
