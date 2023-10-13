@@ -8,7 +8,7 @@ module.exports = {
 			'gold': '#586F7C',
 			'black': '#010101',
 			'white': '#ffffff',
-			
+			black:'#010101'
 		}
 	},
 	plugins: [
