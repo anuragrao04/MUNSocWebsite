@@ -5,10 +5,10 @@ module.exports = {
 	theme: {
 		extend: {},
 		colors: {
-			'paynes-gray': '#586F7C',
-			'light-blue': '#B8DBD9',
-			'dark-green': '#04724D',
-			white: '#ffffff'
+			'munsoc-gold': '#586F7C',
+			'black': '#010101',
+			'white': '#ffffff',
+			
 		}
 	},
 	plugins: [
