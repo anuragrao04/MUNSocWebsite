@@ -5,7 +5,7 @@ module.exports = {
 	theme: {
 		extend: {},
 		colors: {
-			'munsoc-gold': '#586F7C',
+			'gold': '#586F7C',
 			'black': '#010101',
 			'white': '#ffffff',
 			
