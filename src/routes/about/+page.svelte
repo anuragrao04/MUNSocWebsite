@@ -55,11 +55,7 @@
             {/if}
 
           </div>
-          <div class="prizes pl-2 pr-2 md:pr-5 md:pl-5">
-            {
-              (award.meta.date)
-            }
-          </div>
+          
           <div class = "prizes pl-2 pr-2 md:pr-5 md:pl-5">
             <div class = "h-auto items-center">
             {#each Object.entries(award.meta.awardeeAward) as [person, award]}
@@ -71,7 +67,11 @@
             {/each}
           </div>
           </div>
+         <div class="pr-10 pl-10 text-right mt-5 text-2xl m-0 text-munsoc-gold pt-2 md:text-xl text-sm" style="margin-bottom: 0;">
+  <span style="margin-right: 5px;">📅</span>{award.meta.date}
+</div>
           </div>
+          
       
           {/each}
         </div>
